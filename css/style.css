@@ -985,3 +985,178 @@
   text-decoration: none;
   color: #0085e4;
 }
+
+.top-heading {
+  margin-top: 80px;
+  height: 50vh;
+  background-color: #f9fbfe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.top-heading .container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top-heading .container h1 {
+  width: 80%;
+  font-size: 72px;
+}
+.top-heading .container h6 {
+  padding-top: 30px;
+  width: 60%;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.pricing-chose {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.pricing-chose .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  padding-top: 20px;
+}
+.pricing-chose .container .explanation {
+  width: 40%;
+}
+.pricing-chose .container .explanation h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  color: #363838;
+  padding: 10px;
+}
+.pricing-chose .container .explanation p {
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #363838;
+}
+.pricing-chose .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  height: 100%;
+}
+.pricing-chose .container .cards .card-content {
+  height: 100%;
+  margin: 15px;
+  width: 320px;
+  height: 450px;
+}
+.pricing-chose .container .cards .card-content .top {
+  border: 1px solid #5c5d5f;
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+}
+.pricing-chose .container .cards .card-content .top .price {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin-top: 64px;
+}
+.pricing-chose .container .cards .card-content .top .top-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px;
+}
+.pricing-chose .container .cards .card-content .top .top-price h1 {
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pricing-chose .container .cards .card-content .top .top-price h1 span {
+  color: #5c5d5f;
+}
+.pricing-chose .container .cards .card-content .bot {
+  border: 1px solid #5c5d5f;
+  border-radius: 0 0 8px 8px;
+}
+.pricing-chose .container .cards .card-content .bot .btn-under {
+  background-color: transparent;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.pricing-chose .container .cards .card-content .bot .btn-under .center {
+  text-decoration: none;
+}
+.pricing-chose .container .cards .card-content .bot .btn-primary {
+  margin: 10px 30px;
+  background-color: #2C2C96;
+  padding: 20px 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+.pricing-chose .container .cards .card-content .bot .btn-primary .btn-pr {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.pricing-chose .container .cards .card-content .bot .btn-primary:hover {
+  background-color: #3838bd;
+}
+.pricing-chose .container .cards .card-content .bot .btn-secondary {
+  margin: 30px 30px;
+  background-color: #ffffff;
+  border: 1px solid #0085E6;
+  padding: 20px 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 90px;
+}
+.pricing-chose .container .cards .card-content .bot .btn-secondary .btn-sec {
+  text-decoration: none;
+  color: #0085E6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+.pricing-chose .container .cards .card-content .bot .btn-secondary:hover {
+  border: 2px solid #0085E6;
+}
+.pricing-chose .container .cards .card-content .bot ul {
+  list-style: none;
+  padding: 10px;
+}
+.pricing-chose .container .cards .card-content .bot ul li {
+  padding: 5px;
+}
+.pricing-chose .container .cards .card-content .bot ul li .bold {
+  font-weight: 900;
+}
