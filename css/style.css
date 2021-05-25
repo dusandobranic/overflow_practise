@@ -719,8 +719,9 @@
 }
 
 .footer {
-  height: 80vh;
+  height: auto;
   background-color: #ffffff;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1043,7 +1044,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   padding-top: 20px;
 }
 .pricing-chose .container .explanation {
@@ -1078,7 +1079,7 @@
   height: 450px;
 }
 .pricing-chose .container .cards .card-content .top {
-  border: 1px solid #5c5d5f;
+  border: 1px solid #e9edf2;
   border-bottom: none;
   border-radius: 8px 8px 0 0;
 }
@@ -1104,7 +1105,7 @@
   color: #5c5d5f;
 }
 .pricing-chose .container .cards .card-content .bot {
-  border: 1px solid #5c5d5f;
+  border: 1px solid #e9edf2;
   border-radius: 0 0 8px 8px;
 }
 .pricing-chose .container .cards .card-content .bot .btn-under {
@@ -1159,4 +1160,130 @@
 }
 .pricing-chose .container .cards .card-content .bot ul li .bold {
   font-weight: 900;
+}
+
+.features-list {
+  width: 100%;
+  height: 130vh;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.features-list .fl-container {
+  width: 85%;
+  height: inherit;
+  max-width: 1240px;
+}
+.features-list .fl-container .heading h1 {
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px 0;
+}
+.features-list .fl-container .fl-holder {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2em 1fr 2em 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+}
+.features-list .fl-container .fl-holder .fl-content {
+  border: 1px solid #e9edf2;
+  border-radius: 8px;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: minmax(480px, auto);
+}
+.features-list .fl-container .fl-holder .fl-content ul {
+  padding: 40px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.features-list .fl-container .fl-holder .fl-content ul .heading {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.features-list .fl-container .fl-holder .fl-content ul .item {
+  padding: 10px;
+  font-size: 16px;
+  color: #363838;
+}
+
+.acordian {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.acordian .acordian-container {
+  width: 85%;
+  height: inherit;
+  max-width: 1240px;
+  margin-top: 60px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 5fr;
+  grid-template-columns: 4fr 5fr;
+}
+.acordian .acordian-container .heading {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.acordian .acordian-container .heading h1 {
+  font-size: 36px;
+  color: #363838;
+}
+.acordian .acordian-container .heading p {
+  font-size: 22px;
+  padding: 30px 0;
+  color: #363838;
+}
+.acordian .acordian-container .heading a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #0085E6;
+}
+.acordian .acordian-container .accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  font-size: 22px;
+  border-top: solid 1px #e9edf2;
+  border-bottom: solid 1px #e9edf2;
+}
+.acordian .acordian-container .accordion:hover {
+  padding-left: 30px;
+}
+.acordian .acordian-container button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding: 20px;
+}
+.acordian .acordian-container .panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.acordian .acordian-container .panel p {
+  margin: 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #363838;
+  font-weight: 200;
 }
