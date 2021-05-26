@@ -1730,7 +1730,7 @@
     background-color: $howto_bc_blue;
 
     .holder {
-        padding-top: 50px;
+        padding-top: 60px;
         margin-top: 0 !important;
     }
 
@@ -1746,7 +1746,7 @@
     background-color: $howto_bc_pink;
 
     .holder {
-        padding-top: 50px;
+        padding-top: 60px;
         margin-top: 0 !important;
     }
 
@@ -1755,4 +1755,43 @@
             margin-bottom: 0px !important;
         }
     }
+}
+
+.bc-purple {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: $howto_bc_purple;
+
+    .holder {
+        padding-top: 60px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-top: 0 !important;
+    }
+
+    .stickers {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3em;
+        grid-auto-rows: minmax(300px, auto);
+
+        .sticker {
+            padding: 20px 40px;
+        }
+    }
+}
+
+.bc-lightblue {
+    background-color: $howto_bc_lightblue;
+}
+
+.bc-white {
+    background-color: $bckground;
+
+    padding-bottom: 80px;
 }

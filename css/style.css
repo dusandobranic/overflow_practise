@@ -1797,7 +1797,7 @@
   background-color: #d5f3ff;
 }
 .bc-blue .holder {
-  padding-top: 50px;
+  padding-top: 60px;
   margin-top: 0 !important;
 }
 .bc-blue .control .content {
@@ -1809,9 +1809,57 @@
   background-color: #feeae5;
 }
 .bc-pink .holder {
-  padding-top: 50px;
+  padding-top: 60px;
   margin-top: 0 !important;
 }
 .bc-pink .control .content {
   margin-bottom: 0px !important;
+}
+
+.bc-purple {
+  margin: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e6e6f8;
+}
+.bc-purple .holder {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0 !important;
+}
+.bc-purple .stickers {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3em 1fr 3em 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3em;
+  grid-auto-rows: minmax(300px, auto);
+}
+.bc-purple .stickers .sticker {
+  padding: 20px 40px;
+}
+
+.bc-lightblue {
+  background-color: #f1fbff;
+}
+
+.bc-white {
+  background-color: #ffffff;
+  padding-bottom: 80px;
 }
