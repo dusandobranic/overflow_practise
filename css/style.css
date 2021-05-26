@@ -1623,6 +1623,14 @@
   gap: 3em;
   margin: auto;
 }
+.agile-teams .container .center h1 {
+  margin-top: 200px;
+  padding: 10px 0 !important;
+}
+.agile-teams .container .center p {
+  padding: 10px 0 !important;
+  margin: 0;
+}
 .agile-teams .container .text {
   margin-top: 90px;
   font-family: Arial, Helvetica, sans-serif;
@@ -1704,4 +1712,19 @@
   background-color: #3838bd;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.center-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.center-img img {
+  margin: 50px 0;
 }
