@@ -36,8 +36,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 85%;
-  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto;
 }
 .navbar .formater .header {
   display: -webkit-box;
@@ -209,9 +209,9 @@
           justify-content: center;
 }
 .intro .intro-container {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
   padding: 82px 0;
-  max-width: 1240px;
 }
 .intro .intro-container .banner {
   padding: 10px 0;
@@ -396,8 +396,8 @@
           justify-content: center;
 }
 .section-one .one-holder {
-  width: 85%;
-  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto;
 }
 .section-one .one-holder .one-container {
   padding: 70px 0;
@@ -468,8 +468,8 @@
 }
 .section-two .section-two-holder {
   height: inherit;
-  width: 85%;
-  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto;
 }
 .section-two .section-two-holder .two-container {
   height: inherit;
@@ -556,8 +556,8 @@
 }
 .section-three .section-three-holder {
   height: inherit;
-  width: 85%;
-  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto;
 }
 .section-three .section-three-holder .three-container {
   height: inherit;
@@ -645,8 +645,8 @@
 }
 .section-four .section-four-holder {
   height: inherit;
-  width: 85%;
-  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto;
 }
 .section-four .section-four-holder .four-container {
   height: inherit;
@@ -743,8 +743,8 @@
 }
 .footer .footer-container {
   height: inherit;
-  width: 85%;
-  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto;
 }
 .footer .footer-container .footer-holder {
   display: -webkit-box;
@@ -864,8 +864,8 @@
       -ms-flex-align: center;
           align-items: center;
   height: inherit;
-  width: 85%;
-  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto;
 }
 .last .last-container .last-thing {
   width: 100%;
@@ -910,8 +910,8 @@
           justify-content: center;
 }
 .content .container {
-  width: 85%;
-  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1186,9 +1186,9 @@
           justify-content: center;
 }
 .features-list .fl-container {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
   height: inherit;
-  max-width: 1240px;
 }
 .features-list .fl-container .heading h1 {
   font-size: 46px;
@@ -1237,9 +1237,9 @@
           justify-content: center;
 }
 .acordian .acordian-container {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
   height: inherit;
-  max-width: 1240px;
   margin-top: 60px;
   display: -ms-grid;
   display: grid;
@@ -1312,9 +1312,9 @@
           justify-content: center;
 }
 .entrprise-one .container {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
   height: inherit;
-  max-width: 1240px;
   margin-top: 60px;
   display: -ms-grid;
   display: grid;
@@ -1406,9 +1406,9 @@
           justify-content: center;
 }
 .enterprise-three .container {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
   height: inherit;
-  max-width: 1240px;
   margin-top: 60px;
   display: -ms-grid;
   display: grid;
@@ -1486,9 +1486,9 @@
           justify-content: center;
 }
 .enterprise-four .container {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
   height: inherit;
-  max-width: 1240px;
   margin-top: 60px;
   background-color: #a4e5ff;
   margin: auto;
@@ -1529,9 +1529,9 @@
   margin-bottom: 70px;
 }
 .agile-teams-one .agile-container {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
   height: inherit;
-  max-width: 1240px;
   margin-top: 60px;
   margin: auto;
 }
@@ -1612,9 +1612,9 @@
   margin: 80px auto;
 }
 .agile-teams .container {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
   height: inherit;
-  max-width: 1240px;
   margin: 60px auto;
   display: -ms-grid;
   display: grid;
@@ -1660,9 +1660,8 @@
   margin: 80px auto;
 }
 .agile-teams-two .container {
-  width: 85%;
+  width: 70%;
   height: inherit;
-  max-width: 1240px;
   margin: 60px auto;
 }
 .agile-teams-two .container .heading {
@@ -1727,4 +1726,92 @@
 }
 .center-img img {
   margin: 50px 0;
+}
+
+.how_it_works {
+  text-align: center;
+  background-color: #ffffff;
+}
+.how_it_works .button {
+  margin-top: 40px;
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #2C2C96;
+}
+.how_it_works .button a {
+  text-decoration: none;
+  color: #2C2C96;
+}
+
+.how-sect-one {
+  background-color: #f3f3ff;
+}
+.how-sect-one .container {
+  width: 70%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.how-sect-one .container h4 {
+  padding-top: 60px;
+}
+.how-sect-one .container .content-holder {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 6em 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 6em;
+  grid-auto-rows: auto;
+}
+.how-sect-one .container .content-holder .text-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  gap: 3em;
+}
+.how-sect-one .container .content-holder .text-content h3 {
+  font-size: 32px;
+}
+.how-sect-one .container .content-holder .text-content p {
+  font-size: 22px;
+}
+.how-sect-one .container .content-holder .text-content .control h1 {
+  margin-top: 30px;
+  font-size: 48px;
+}
+.how-sect-one .container .content-holder .text-content .control h3 {
+  margin-top: 20px;
+  font-size: 32px;
+}
+.how-sect-one .container .content-holder .text-content .control p {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.bc-blue {
+  margin: 0 auto;
+  background-color: #d5f3ff;
+}
+.bc-blue .holder {
+  padding-top: 50px;
+  margin-top: 0 !important;
+}
+.bc-blue .control .content {
+  margin-bottom: 0px !important;
+}
+
+.bc-pink {
+  margin: 0 !important;
+  background-color: #feeae5;
+}
+.bc-pink .holder {
+  padding-top: 50px;
+  margin-top: 0 !important;
+}
+.bc-pink .control .content {
+  margin-bottom: 0px !important;
 }
