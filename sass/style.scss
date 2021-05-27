@@ -1795,3 +1795,156 @@
 
     padding-bottom: 80px;
 }
+
+.design {
+    background-color: $bckground;
+}
+
+.banner {
+    background-color: $slider_color;
+
+    .container {
+        width: 70%;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+
+        .texts {
+            display: flex;
+            align-items: center;
+            padding: 80px 0;
+            margin: 0 90px;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+
+                h1 {
+                    width: 70%;
+                    margin-bottom: 80px;
+                }
+
+                h4 {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+.present {
+    background-color: $howto_bc_blue;
+    padding-bottom: 50px;
+
+    .container {
+        width: 70%;
+        margin: 0 auto;
+
+        .heading {
+            padding-top: 50px;
+
+            h1 {
+                font-size: 48px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            font-family: Arial, Helvetica, sans-serif;
+
+            .texts-2 {
+                margin-top: 120px !important;
+            }
+
+            .texts {
+                margin-top: 50px;
+
+                h1 {
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+.heading-1 {
+    width: 80% !important;
+}
+
+.padding-1 {
+    padding-bottom: 50px !important;
+
+    .stickers {
+        display: grid;
+        grid-template-columns: 1f 1fr 1fr;
+        gap: 1em;
+    }
+}
+
+.feedback {
+    background-color: $backgr_pricing;
+
+    .container {
+        width: 70%;
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 50px;
+
+        .heading {
+            font-size: 48px;
+            padding-top: 50px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2em;
+
+            .card {
+                h1 {
+                    margin: 10px 0;
+                }
+
+                p {
+                    margin: 10px 0;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+.product-info {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 90px auto;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+        background-color: $howto_bc_blue;
+        padding: 90px 0;
+
+        .wrapper {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            margin: 40px auto;
+            text-align: center;
+
+            h1 {
+                width: 90%;
+                font-size: 78px;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
