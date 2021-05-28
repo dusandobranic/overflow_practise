@@ -743,7 +743,7 @@
 }
 .footer .footer-container {
   height: inherit;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 .footer .footer-container .footer-holder {
@@ -2021,4 +2021,70 @@
   width: 90%;
   font-size: 78px;
   letter-spacing: 3px;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.margin-integrations {
+  margin-top: 80px !important;
+  width: 60%;
+}
+
+.img-integrations {
+  position: relative;
+  right: 150px;
+}
+
+.plugins {
+  width: 75%;
+  margin: 0 auto;
+}
+.plugins .container {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 80px;
+}
+.plugins .container h1 {
+  font-size: 38px;
+}
+.plugins .container .stickers {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5em 1fr 5em 1fr 5em 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.plugins .container .stickers .sticker {
+  padding: 60px 0;
+}
+.plugins .container .stickers .sticker h1 {
+  font-size: 26px;
+  padding: 20px;
+}
+.plugins .container .stickers .sticker p {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.plugins .container .colaboration {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 8em 1fr 8em 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.txt-integrations {
+  text-align: start;
+  padding-top: 70px;
 }
