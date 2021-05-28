@@ -2088,3 +2088,69 @@
   text-align: start;
   padding-top: 70px;
 }
+
+.white-vh-30 {
+  background-color: #ffffff;
+  height: 30vh;
+}
+
+.get-started {
+  background-color: #161637;
+  height: 100vh;
+  margin-top: 80px;
+}
+.get-started .container {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.get-started .container h1 {
+  font-size: 58px;
+  margin: 130px 0 40px 0;
+}
+.get-started .container p {
+  font-size: 26px;
+  width: 55%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.get-started .container .button {
+  background-color: #ffffff;
+  width: 420px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  border-radius: 4px;
+}
+.get-started .container .button a {
+  text-decoration: none;
+  color: #2C2C96;
+  text-align: center;
+}
+.get-started .container a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #1451ce;
+  font-size: 22px;
+}
+.get-started .container .mac {
+  margin: 60px 0;
+}
+.get-started .container .img-down {
+  position: relative;
+  top: 80px;
+}
