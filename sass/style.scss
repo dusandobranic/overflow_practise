@@ -1796,8 +1796,6 @@
     padding-bottom: 80px;
 }
 
-
-
 .design {
     background-color: $bckground;
 }
@@ -2001,8 +1999,8 @@
 }
 
 .plugins {
-    .container{
-        .colaboration{
+    .container {
+        .colaboration {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 8em;
@@ -2012,7 +2010,7 @@
     }
 }
 
-.txt-integrations{
+.txt-integrations {
     text-align: start;
     padding-top: 70px;
 }
@@ -2078,6 +2076,86 @@
         .img-down {
             position: relative;
             top: 80px;
+        }
+    }
+}
+
+.webinar {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 70px auto;
+
+    .webinar-container {
+        width: 70%;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 22px;
+            margin: 20px 0;
+        }
+
+        .button {
+            background-color: $btn_color;
+            width: 200px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: $btntextcol;
+            }
+        }
+    }
+}
+
+.webinar-lineup {
+    width: 70%;
+    margin: 0 auto;
+
+    .webinar-border {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 5em;
+        text-align: start;
+
+        border-bottom: solid 2px $product_bc;
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .button {
+            background-color: $btn_color;
+            width: 150px;
+            text-align: center;
+            padding: 10px 12px;
+            border-radius: 8px;
+
+            a {
+                text-decoration: none;
+                color: $btntextcol;
+            }
+        }
+
+        .button:hover {
+            background-color: lighten($btn_color, 10%);
         }
     }
 }
